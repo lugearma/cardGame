@@ -13,6 +13,8 @@
 		92C0F6681D297FFF00D8B23F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F6661D297FFF00D8B23F /* Main.storyboard */; };
 		92C0F66A1D297FFF00D8B23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F6691D297FFF00D8B23F /* Assets.xcassets */; };
 		92C0F66D1D297FFF00D8B23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F66B1D297FFF00D8B23F /* LaunchScreen.storyboard */; };
+		92C0F6761D29814100D8B23F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F6751D29814100D8B23F /* Deck.m */; };
+		92C0F67B1D2983B100D8B23F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F67A1D2983B100D8B23F /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		92C0F6691D297FFF00D8B23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C0F66C1D297FFF00D8B23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92C0F66E1D297FFF00D8B23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C0F6741D29814100D8B23F /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		92C0F6751D29814100D8B23F /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		92C0F67A1D2983B100D8B23F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		92C0F67C1D2983C300D8B23F /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,13 @@
 		92C0F65C1D297FFD00D8B23F /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				92C0F67A1D2983B100D8B23F /* Card.m */,
+				92C0F67C1D2983C300D8B23F /* Card.h */,
 				92C0F6601D297FFE00D8B23F /* AppDelegate.h */,
 				92C0F6611D297FFE00D8B23F /* AppDelegate.m */,
 				92C0F6631D297FFE00D8B23F /* ViewController.h */,
+				92C0F6741D29814100D8B23F /* Deck.h */,
+				92C0F6751D29814100D8B23F /* Deck.m */,
 				92C0F6641D297FFE00D8B23F /* ViewController.m */,
 				92C0F6661D297FFF00D8B23F /* Main.storyboard */,
 				92C0F6691D297FFF00D8B23F /* Assets.xcassets */,
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0F67B1D2983B100D8B23F /* Card.m in Sources */,
+				92C0F6761D29814100D8B23F /* Deck.m in Sources */,
 				92C0F6651D297FFE00D8B23F /* ViewController.m in Sources */,
 				92C0F6621D297FFE00D8B23F /* AppDelegate.m in Sources */,
 				92C0F65F1D297FFD00D8B23F /* main.m in Sources */,
