@@ -15,6 +15,7 @@
 		92C0F66D1D297FFF00D8B23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F66B1D297FFF00D8B23F /* LaunchScreen.storyboard */; };
 		92C0F6761D29814100D8B23F /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F6751D29814100D8B23F /* Deck.m */; };
 		92C0F67B1D2983B100D8B23F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F67A1D2983B100D8B23F /* Card.m */; };
+		92C0F6821D29D50A00D8B23F /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F6811D29D50A00D8B23F /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		92C0F6751D29814100D8B23F /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 		92C0F67A1D2983B100D8B23F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		92C0F67C1D2983C300D8B23F /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		92C0F6801D29D50A00D8B23F /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		92C0F6811D29D50A00D8B23F /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 		92C0F65C1D297FFD00D8B23F /* CardGame */ = {
 			isa = PBXGroup;
 			children = (
+				92C0F6801D29D50A00D8B23F /* PlayingCard.h */,
+				92C0F6811D29D50A00D8B23F /* PlayingCard.m */,
 				92C0F67A1D2983B100D8B23F /* Card.m */,
 				92C0F67C1D2983C300D8B23F /* Card.h */,
 				92C0F6601D297FFE00D8B23F /* AppDelegate.h */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0F6821D29D50A00D8B23F /* PlayingCard.m in Sources */,
 				92C0F67B1D2983B100D8B23F /* Card.m in Sources */,
 				92C0F6761D29814100D8B23F /* Deck.m in Sources */,
 				92C0F6651D297FFE00D8B23F /* ViewController.m in Sources */,
