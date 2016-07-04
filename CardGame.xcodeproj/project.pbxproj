@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		92C0F65F1D297FFD00D8B23F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F65E1D297FFD00D8B23F /* main.m */; };
 		92C0F6621D297FFE00D8B23F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F6611D297FFE00D8B23F /* AppDelegate.m */; };
-		92C0F6651D297FFE00D8B23F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0F6641D297FFE00D8B23F /* ViewController.m */; };
 		92C0F6681D297FFF00D8B23F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F6661D297FFF00D8B23F /* Main.storyboard */; };
 		92C0F66A1D297FFF00D8B23F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F6691D297FFF00D8B23F /* Assets.xcassets */; };
 		92C0F66D1D297FFF00D8B23F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C0F66B1D297FFF00D8B23F /* LaunchScreen.storyboard */; };
@@ -25,8 +24,6 @@
 		92C0F65E1D297FFD00D8B23F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92C0F6601D297FFE00D8B23F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		92C0F6611D297FFE00D8B23F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		92C0F6631D297FFE00D8B23F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		92C0F6641D297FFE00D8B23F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		92C0F6671D297FFF00D8B23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92C0F6691D297FFF00D8B23F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92C0F66C1D297FFF00D8B23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,20 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				92C0F6861D29E92E00D8B23F /* Model */,
-				92C0F6801D29D50A00D8B23F /* PlayingCard.h */,
-				92C0F6811D29D50A00D8B23F /* PlayingCard.m */,
-				92C0F6831D29E92600D8B23F /* PlayingCardDeck.h */,
-				92C0F6841D29E92600D8B23F /* PlayingCardDeck.m */,
-				92C0F6631D297FFE00D8B23F /* ViewController.h */,
-				92C0F6641D297FFE00D8B23F /* ViewController.m */,
 				92C0F6871D29F28D00D8B23F /* CardViewController.h */,
 				92C0F6881D29F28D00D8B23F /* CardViewController.m */,
 				92C0F6661D297FFF00D8B23F /* Main.storyboard */,
 				92C0F6691D297FFF00D8B23F /* Assets.xcassets */,
 				92C0F66B1D297FFF00D8B23F /* LaunchScreen.storyboard */,
 				92C0F66E1D297FFF00D8B23F /* Info.plist */,
-				92C0F6601D297FFE00D8B23F /* AppDelegate.h */,
-				92C0F6611D297FFE00D8B23F /* AppDelegate.m */,
 				92C0F65D1D297FFD00D8B23F /* Supporting Files */,
 			);
 			path = CardGame;
@@ -96,6 +85,8 @@
 		92C0F65D1D297FFD00D8B23F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92C0F6601D297FFE00D8B23F /* AppDelegate.h */,
+				92C0F6611D297FFE00D8B23F /* AppDelegate.m */,
 				92C0F65E1D297FFD00D8B23F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -104,6 +95,10 @@
 		92C0F6861D29E92E00D8B23F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92C0F6801D29D50A00D8B23F /* PlayingCard.h */,
+				92C0F6811D29D50A00D8B23F /* PlayingCard.m */,
+				92C0F6831D29E92600D8B23F /* PlayingCardDeck.h */,
+				92C0F6841D29E92600D8B23F /* PlayingCardDeck.m */,
 				92C0F6741D29814100D8B23F /* Deck.h */,
 				92C0F6751D29814100D8B23F /* Deck.m */,
 				92C0F67A1D2983B100D8B23F /* Card.m */,
@@ -186,7 +181,6 @@
 				92C0F6821D29D50A00D8B23F /* PlayingCard.m in Sources */,
 				92C0F67B1D2983B100D8B23F /* Card.m in Sources */,
 				92C0F6761D29814100D8B23F /* Deck.m in Sources */,
-				92C0F6651D297FFE00D8B23F /* ViewController.m in Sources */,
 				92C0F6851D29E92600D8B23F /* PlayingCardDeck.m in Sources */,
 				92C0F6621D297FFE00D8B23F /* AppDelegate.m in Sources */,
 				92C0F65F1D297FFD00D8B23F /* main.m in Sources */,
@@ -338,6 +332,7 @@
 				92C0F6731D29800000D8B23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
